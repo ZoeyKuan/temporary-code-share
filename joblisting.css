@@ -178,3 +178,20 @@ nav a:hover {
  font-size: 18px;
 }
 
+.draggable {
+ display: block;
+ overflow: hidden;
+ width: 70%;
+}
+.smooth-scrolling{
+ scroll-behavior: smooth;
+}
+.draggable-inner {
+ pointer-events: none;
+ display: flex;
+ gap: 20px;
+}
+.item img {
+ height: 60px;
+ min-width: 120px;
+}
