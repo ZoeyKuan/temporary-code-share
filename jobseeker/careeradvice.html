@@ -7,6 +7,38 @@
  <link rel="stylesheet" href="../joblisting.css">
  <link rel="stylesheet" href="../signup.css">
  <link rel="stylesheet" href="careeradvice.css">
+ <style>
+  .aicoach {
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 20px;
+   color: #FFF;
+  }
+  .card {
+   color: black;
+   background-color: aliceblue;
+   padding: 10px;
+   width: 45%;
+   border-radius: 1rem;
+   border: #0044cc solid 1px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+  }
+  .card .text1 {
+   font-size: 150%;
+  }
+  .card button {
+   width: fit-content;
+   border: none;
+   border-radius: 8px;
+   background-color: #0044cc;
+   color: #fff;
+   padding: 10px 20px;
+   cursor: pointer;
+  }
+ </style>
 </head>
 <body>
  <div class="header">
@@ -20,73 +52,91 @@
    <a href="../signup.html" class="signin-btn">Log in</a>
    <a href="../recruiter/employersite.html" style="color:#0044cc; text-decoration:none;">Employer site</a>
   </div>
- </div>
+  </div>
 
- <div class="container">
-    <!-- Header Section -->
-    <div class="ca-header">
-        <h1>Latest Career Advice</h1>
-        <a href="#">Browse all &gt;</a>
+  <div class="search-section">
+   <div class="aicoach" style="width: 60%;">
+    <h1>How to get the best out of AI Career Coach</h1>
+    <div class="card">
+     <div class="text1">Provide your resume</div>
+     <div class="text2">Our AI Coach will analyse your resume, identify strengths and gaps, and recommend more job possibilities based on your skills and experience!</div>
+     <button>Upload resume ></button>
     </div>
-
-    <!-- Main Article Section -->
-    <div class="main-article">
-        <img src="
-        https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/We_Can_Do_It%21.jpg/250px-We_Can_Do_It%21.jpg
-        " alt="Main Career Advice Image">
-        <div class="text">
-            <h2>How to make the most of your job search</h2>
-            <p>Discover valuable tips and strategies for making your job search more effective. Whether you’re looking for your first job or switching careers, this guide has something for everyone.</p>
-            <a href="#">Find out more</a>
-        </div>
+    <div class="card">
+     <div class="text1">Try the RIASEC test</div>
+     <div class="text2">The RIASEC test is a work-based assessment that helps you discover careers based on your interests and strengths, making it easier to find a job you’ll enjoy.</div>
+     <button>Go to RIASEC ></button>
     </div>
+   </div>
+  </div>
 
-    <!-- Article Grid Section -->
-    <div class="article-grid">
-        <div class="article-item">
-            <img src="
-            https://images.squarespace-cdn.com/content/v1/5d7b47a4ffbcd02addb0f5e8/07be8096-a6c1-4c0d-a21f-79de205611ea/FEATURE+IMAGE+_+IMAGE+1+%2853%29.jpg?format=2500w
-            " alt="Job Search Challenges">
-            <div class="content">
-                <h3>4 Job Search Challenges for Fresh Grads and How to Get Past Them</h3>
-                <p>Learn the key obstacles new graduates face when looking for jobs and how you can overcome them.</p>
-                <a href="#">Read more</a>
-            </div>
-        </div>
+  <div class="container">
 
-        <div class="article-item">
-            <img src="
-            https://learning.jobscentral.com.sg/images3/article/image/EE8E86D904DEFE49E25D4983FE32D4B6F0FC0E11.jpg
-            " alt="Resume Mistakes">
-            <div class="content">
-                <h3>7 Common Resume Mistakes Fresh Grads Make</h3>
-                <p>Find out the most common resume errors and how you can avoid them to get noticed by recruiters.</p>
-                <a href="#">Read more</a>
-            </div>
-        </div>
-
-        <div class="article-item">
-            <img src="
-            https://swgfl.org.uk/assets/articles/thinking-large.jpg
-            " alt="Important Questions">
-            <div class="content">
-                <h3>Top Questions to Ask Yourself When Making an Important Career Decision</h3>
-                <p>Ask the right questions when making career decisions to ensure you're on the right path.</p>
-                <a href="#">Read more</a>
-            </div>
-        </div>
-
-        <div class="article-item">
-            <img src="
-            https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2018_44/2625791/181031-depression-mn-1030.jpg
-            " alt="Finding Passion at Work">
-            <div class="content">
-                <h3>Lost Your Motivation? Here’s How To Find Passion At Work Again</h3>
-                <p>If you’re feeling uninspired at work, these strategies can help reignite your passion for what you do.</p>
-                <a href="#">Read more</a>
-            </div>
-        </div>
+   <!-- Header Section -->
+   <div class="ca-header">
+    <h1>Latest Career Advice</h1>
+    <a href="#">Browse all &gt;</a>
+   </div>
+  
+   <!-- Main Article Section -->
+   <div class="main-article">
+    <img src="
+          https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/We_Can_Do_It%21.jpg/250px-We_Can_Do_It%21.jpg
+          " alt="Main Career Advice Image">
+    <div class="text">
+     <h2>How to make the most of your job search</h2>
+     <p>Discover valuable tips and strategies for making your job search more effective. Whether you’re looking for your
+      first job or switching careers, this guide has something for everyone.</p>
+     <a href="#">Find out more</a>
     </div>
-</div>
+   </div>
+  
+   <!-- Article Grid Section -->
+   <div class="article-grid">
+    <div class="article-item">
+     <img src="
+              https://images.squarespace-cdn.com/content/v1/5d7b47a4ffbcd02addb0f5e8/07be8096-a6c1-4c0d-a21f-79de205611ea/FEATURE+IMAGE+_+IMAGE+1+%2853%29.jpg?format=2500w
+              " alt="Job Search Challenges">
+     <div class="content">
+      <h3>4 Job Search Challenges for Fresh Grads and How to Get Past Them</h3>
+      <p>Learn the key obstacles new graduates face when looking for jobs and how you can overcome them.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+  
+    <div class="article-item">
+     <img src="
+              https://learning.jobscentral.com.sg/images3/article/image/EE8E86D904DEFE49E25D4983FE32D4B6F0FC0E11.jpg
+              " alt="Resume Mistakes">
+     <div class="content">
+      <h3>7 Common Resume Mistakes Fresh Grads Make</h3>
+      <p>Find out the most common resume errors and how you can avoid them to get noticed by recruiters.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+  
+    <div class="article-item">
+     <img src="
+              https://swgfl.org.uk/assets/articles/thinking-large.jpg
+              " alt="Important Questions">
+     <div class="content">
+      <h3>Top Questions to Ask Yourself When Making an Important Career Decision</h3>
+      <p>Ask the right questions when making career decisions to ensure you're on the right path.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+  
+    <div class="article-item">
+     <img src="
+              https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_auto,q_auto:best/newscms/2018_44/2625791/181031-depression-mn-1030.jpg
+              " alt="Finding Passion at Work">
+     <div class="content">
+      <h3>Lost Your Motivation? Here’s How To Find Passion At Work Again</h3>
+      <p>If you’re feeling uninspired at work, these strategies can help reignite your passion for what you do.</p>
+      <a href="#">Read more</a>
+     </div>
+    </div>
+   </div>
+  </div>
 </body>
 </html>
