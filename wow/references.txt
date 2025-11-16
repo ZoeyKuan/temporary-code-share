@@ -9,3 +9,7 @@ inspo
 3. how to make jobseeker site a bit more straight to the point of the site
  - https://www.foundit.sg
  but sg.jobstreet.com has much sleeker UI
+
+4. job ads and the dashboard and inspo for candidate dashboard
+ - https://easy.jobs/blog/great-job-posting-examples
+ - https://easy.jobs/docs/status-of-applied-jobs
