@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Candidate List with AI Score</title>
+ <link rel="stylesheet" href="../joblisting.css">
+ <link rel="stylesheet" href="../signup.css">
+ <link rel="stylesheet" href="jobads.css">
+</head>
+
+<body>
+
+ <div class="jobad-cont">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+   <h2>easy.jobs</h2>
+   <a href="#">Dashboard</a>
+   <a href="#">Jobs</a>
+   <a href="#">Candidates</a>
+   <a href="#">Settings</a>
+   <!-- <a href="#">Question Set</a> -->
+   <div class="footer">
+    <p>Logged in as Pied Piper</p>
+    <button>Logout</button>
+   </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+   <!-- Header -->
+   <div class="main-header">
+    <div class="search-bar">
+     <input type="text" placeholder="Search Candidates Name">
+     <button>Reset</button>
+    </div>
+    <div class="language-selector">
+     <span>English</span> <!-- Here you can implement language switching if needed -->
+    </div>
+   </div>
+
+   <div id="content">
+    <!-- Candidate Cards Section -->
+    <div class="candidate-cards">
+     <!-- Example Candidate Card 1 -->
+     <div class="candidate-card">
+      <img src="#" alt="Jhon William">
+      <h3>Jhon William</h3>
+      <p>Senior Motion Designer</p>
+      <div class="ai-score">AI Score: 85%</div>
+      <a href="#" class="view-details">View Details</a>
+     </div>
+     <!-- Example Candidate Card 2 -->
+     <div class="candidate-card">
+      <img src="#" alt="Lucie Statterfield">
+      <h3>Lucie Statterfield</h3>
+      <p>Junior Analyst</p>
+      <div class="ai-score">AI Score: 92%</div>
+      <a href="#" class="view-details">View Details</a>
+     </div>
+     <!-- Add more candidate cards as needed -->
+    </div>
+   </div>
+
+  </div>
+
+ </div>
+
+ <script src="jobads.js"></script>
+</body>
+
+</html>
